@@ -1,0 +1,66 @@
+.dark {
+  /* Accessible focus ring */
+  --color-focus-ring: var(--color-white);
+
+  /* Surface */
+  --color-surface-default: var(--color-gray-950);
+  --color-surface-elevated: var(--color-gray-900);
+  --color-surface-high: var(--color-gray-800);
+
+  /* Text */
+  --color-text-subtle: var(--color-gray-500);
+  --color-text-default: var(--color-gray-300);
+  --color-text-emphasized: var(--color-white);
+
+  /* Border */
+  --color-border-subtle: var(--color-gray-900);
+  --color-border-default: var(--color-gray-800);
+  --color-border-emphasized: var(--color-gray-700);
+
+  /* Primary */
+  --color-primary-fill: var(--color-emerald-400);
+  --color-primary-on-fill: var(--color-emerald-950);
+  --color-primary-alt: var(--color-emerald-500);
+  --color-primary-subtle: var(--color-emerald-950);
+  --color-primary-text: var(--color-emerald-200);
+
+  /* Secondary */
+  --color-secondary-fill: var(--color-gray-950);
+  --color-secondary-on-fill: var(--color-gray-100);
+  --color-secondary-alt: var(--color-gray-800);
+  --color-secondary-subtle: var(--color-gray-800);
+  --color-secondary-text: var(--color-gray-300);
+
+  /* Tertiary */
+  --color-tertiary-fill: var(--color-fuchsia-400);
+  --color-tertiary-on-fill: var(--color-fuchsia-950);
+  --color-tertiary-alt: var(--color-fuchsia-500);
+  --color-tertiary-subtle: var(--color-fuchsia-950);
+  --color-tertiary-text: var(--color-fuchsia-200);
+
+  /* Error (destructive) */
+  --color-error-fill: var(--color-red-400);
+  --color-error-on-fill: var(--color-red-950);
+  --color-error-alt: var(--color-red-500);
+  --color-error-subtle: var(--color-red-950);
+  --color-error-text: var(--color-red-300);
+
+  /* Disabled */
+  --color-disabled-fill: var(--color-gray-800);
+  --color-disabled-on-fill: var(--color-gray-500);
+  --color-disabled-alt: var(--color-gray-800);
+  --color-disabled-subtle: var(--color-gray-900);
+  --color-disabled-text: var(--color-gray-500);
+
+  /* Components */
+  --color-input-fill: var(--color-gray-950);
+  --color-input-on-fill: var(--color-gray-50);
+  --color-input-border: var(--color-gray-800);
+  --color-input-border-hover: var(--color-gray-700);
+  --color-input-placeholder: var(--color-gray-400);
+  --color-popover-fill: var(--color-gray-950);
+  --color-popover-on-fill: var(--color-white);
+  --color-popover-selected: var(--color-gray-800);
+  --color-popover-on-selected: var(--color-white);
+  --color-popover-border: var(--color-gray-800);
+}

@@ -1,0 +1,33 @@
+{
+  // Format on save to apply Prettier automatically
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Configure file associations to enable Prettier and ESLint on all supported files
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.astro": "astro",
+    "*.json": "json"
+  },
+
+  // Enable IntelliSense for Next.js file paths
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  // Tailwind CSS-specific settings
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "typescriptreact": "javascriptreact",
+    "html": "HTML"
+  },
+
+  // Enable Tailwind CSS IntelliSense in this contexts
+  "tailwindCSS.experimental.classRegex": [
+    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["clsx\\s*\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cn\\s*\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["styles = \\{([^)]*)\\}", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
+}
