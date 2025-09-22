@@ -52,8 +52,8 @@ export function GenerateQRCode() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    canvas.width = 200;
-    canvas.height = 200;
+    canvas.width = 1024;
+    canvas.height = 1024;
     ctx.drawImage(imgElement, 0, 0);
 
     canvas.toBlob((blob) => {
